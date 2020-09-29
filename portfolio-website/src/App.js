@@ -5,8 +5,7 @@ import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 
-//Reikia:  skills, logo, mini logo kampe
-// Padaryti: Home, Contact, Projects
+
 const getDimensions = ele => {
   const { height } = ele.getBoundingClientRect();
   const offsetTop = ele.offsetTop;
@@ -71,7 +70,6 @@ function App() {
   return (
     <div className="App">
       {/*<div className="top-spacer" />*/}
-
       <div className="content">
         <div className="sticky">
           <div className="header" ref={headerRef}>
