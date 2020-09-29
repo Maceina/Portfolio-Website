@@ -10,7 +10,8 @@
 .header {
   display: flex;
   justify-content: center;
-  background-color: #EAE7DC;
+  background-image: url(../src/images/navbar.jpeg);
+  /*background-color: #EAE7DC;*/
   /*background-color: inherit;*/
 }
 
