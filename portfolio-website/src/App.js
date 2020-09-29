@@ -74,7 +74,7 @@ function App() {
                 scrollTo(leadershipRef.current);
               }}
             >
-              Leadership
+              Home
             </button>
             <button
               type="button"
@@ -83,7 +83,7 @@ function App() {
                 scrollTo(providerRef.current);
               }}
             >
-              Providers
+              Projects
             </button>
             <button
               type="button"
@@ -92,7 +92,7 @@ function App() {
                 scrollTo(operationsRef.current);
               }}
             >
-              Operations
+              About
             </button>
           </div>
         </div>
