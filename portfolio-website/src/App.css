@@ -1,6 +1,6 @@
 .top-spacer {
   height: 0vh;
-  background-color: #8face0;
+  background-color: black;
 }
 
 .bottom-spacer {
@@ -10,7 +10,8 @@
 .header {
   display: flex;
   justify-content: center;
-  background-color: rgb(131, 175, 131);
+  background-color: #EAE7DC;
+  /*background-color: inherit;*/
 }
 
 .header_link {
@@ -32,7 +33,6 @@
 .section {
   height: 100vh;
 }
-
 .sticky {
   position: sticky;
   top: 0;
