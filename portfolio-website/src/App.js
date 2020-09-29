@@ -96,9 +96,9 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="section" id="Leadership" ref={leadershipRef} />
-        <div className="section" id="Providers" ref={providerRef} />
-        <div className="section" id="Operations" ref={operationsRef} />
+        <div className="section" id="Leadership" ref={leadershipRef} >1</div>
+        <div className="section" id="Providers" ref={providerRef}>2</div>
+        <div className="section" id="Operations" ref={operationsRef} >3</div>
       </div>
 
       {/*<div className="bottom-spacer" />*/}
