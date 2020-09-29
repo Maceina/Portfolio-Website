@@ -1,11 +1,14 @@
+/*
 .top-spacer {
   height: 0vh;
   background-color: black;
 }
-
+*/
+/*
 .bottom-spacer {
   height: 110vh;
 }
+*/
 
 .header {
   display: flex;
@@ -31,9 +34,11 @@
   color: #000000;
 }
 
+
 .section {
-  height: 100vh;
+  /*height: 100vh;*/
 }
+
 .sticky {
   position: sticky;
   top: 0;
