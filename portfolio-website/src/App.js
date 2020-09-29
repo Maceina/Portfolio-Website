@@ -62,7 +62,7 @@ function App() {
   }, [visibleSection]);
   return (
     <div className="App">
-      <div className="top-spacer" />
+      {/*<div className="top-spacer" />*/}
 
       <div className="content">
         <div className="sticky">
@@ -101,7 +101,7 @@ function App() {
         <div className="section" id="Operations" ref={operationsRef} />
       </div>
 
-      <div className="bottom-spacer" />
+      {/*<div className="bottom-spacer" />*/}
     </div>
   );
 }

@@ -1,5 +1,6 @@
 .top-spacer {
-  height: 50vh;
+  height: 0vh;
+  background-color: #8face0;
 }
 
 .bottom-spacer {
@@ -9,13 +10,14 @@
 .header {
   display: flex;
   justify-content: center;
-  background-color: #fff;
+  background-color: rgb(131, 175, 131);
 }
 
 .header_link {
   padding: 20px;
-  color: #314d4a;
+  color: #0f1817;
   font-weight: bold;
+  background-color: transparent;
   border: none;
   border-bottom: 3px solid transparent;
   cursor: pointer;
@@ -23,12 +25,12 @@
 }
 
 .selected {
-  border-bottom: 3px solid #11bb9a;
-  color: #11bb9a;
+  border-bottom: 3px solid #000000;
+  color: #000000;
 }
 
 .section {
-  height: 40vh;
+  height: 100vh;
 }
 
 #Leadership {
