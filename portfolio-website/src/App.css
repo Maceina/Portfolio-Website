@@ -33,17 +33,6 @@
   height: 100vh;
 }
 
-#Leadership {
-  background-color: #a388e8;
-}
-
-#Providers {
-  background-color: #f4769e;
-}
-
-#Operations {
-  background-color: #8face0;
-}
 .sticky {
   position: sticky;
   top: 0;

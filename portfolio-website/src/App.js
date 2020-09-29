@@ -1,6 +1,12 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./App.css";
+import Contact from './components/Contact';
+import Home from './components/Home';
+import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
 
+//Reikia:  skills, logo, mini logo kampe
+// Padaryti: Home, Contact, Projects
 const getDimensions = ele => {
   const { height } = ele.getBoundingClientRect();
   const offsetTop = ele.offsetTop;
@@ -24,14 +30,16 @@ function App() {
   const [visibleSection, setVisibleSection] = useState();
 
   const headerRef = useRef(null);
-  const leadershipRef = useRef(null);
-  const providerRef = useRef(null);
-  const operationsRef = useRef(null);
+  const homeRef = useRef(null);
+  const skillsRef = useRef(null);
+  const portfolioRef = useRef(null);
+  const contactRef = useRef(null);
 
   const sectionRefs = [
-    { section: "Leadership", ref: leadershipRef },
-    { section: "Providers", ref: providerRef },
-    { section: "Operations", ref: operationsRef },
+    { section: "Home", ref: homeRef },
+    { section: "Skills", ref: skillsRef },
+    { section: "Portfolio", ref: portfolioRef },
+    { section: "Contact", ref: contactRef },
   ];
 
   useEffect(() => {
@@ -69,36 +77,46 @@ function App() {
           <div className="header" ref={headerRef}>
             <button
               type="button"
-              className={`header_link ${visibleSection === "Leadership" ? "selected" : ""}`}
+              className={`header_link ${visibleSection === "Home" ? "selected" : ""}`}
               onClick={() => {
-                scrollTo(leadershipRef.current);
+                scrollTo(homeRef.current);
               }}
             >
               Home
             </button>
             <button
               type="button"
-              className={`header_link ${visibleSection === "Providers" ? "selected" : ""}`}
+              className={`header_link ${visibleSection === "Skills" ? "selected" : ""}`}
               onClick={() => {
-                scrollTo(providerRef.current);
+                scrollTo(skillsRef.current);
               }}
             >
-              Projects
+              Skills
             </button>
             <button
               type="button"
-              className={`header_link ${visibleSection === "Operations" ? "selected" : ""}`}
+              className={`header_link ${visibleSection === "Portfolio" ? "selected" : ""}`}
               onClick={() => {
-                scrollTo(operationsRef.current);
+                scrollTo(portfolioRef.current);
               }}
             >
-              About
+              Portfolio
+            </button>
+            <button
+              type="button"
+              className={`header_link ${visibleSection === "Contact" ? "selected" : ""}`}
+              onClick={() => {
+                scrollTo(contactRef.current);
+              }}
+            >
+              Contact
             </button>
           </div>
         </div>
-        <div className="section" id="Leadership" ref={leadershipRef} >1</div>
-        <div className="section" id="Providers" ref={providerRef}>2</div>
-        <div className="section" id="Operations" ref={operationsRef} >3</div>
+        <div className="section" id="Home" ref={homeRef} ><Home/></div>
+        <div className="section" id="Skills" ref={skillsRef} ><Skills/></div>
+        <div className="section" id="Portfolio" ref={portfolioRef}><Portfolio/></div>
+        <div className="section" id="Contact" ref={contactRef} ><Contact/></div>
       </div>
 
       {/*<div className="bottom-spacer" />*/}
