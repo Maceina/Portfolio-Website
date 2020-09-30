@@ -4,7 +4,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="homeStyle">
-      <h1>Audrius Maceina - software engineer.</h1>
+      <h1>Padaryti curved background ir apearing letter.</h1>
     </div>
   );
 };
