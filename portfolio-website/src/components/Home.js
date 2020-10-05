@@ -1,10 +1,11 @@
 import React from "react";
 import "./Home.css";
+import Hello from "./Hello.js";
 
 const Home = () => {
   return (
     <div className="homeStyle">
-      <h1 className="text">apearing letter.</h1>
+      <Hello/>
     </div>
   );
 };
