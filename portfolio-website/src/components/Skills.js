@@ -8,10 +8,15 @@ const Skills = () => {
     <div className="skillsStyle">
       <h1>My Skills</h1>
       <div className="progressStyle1">
-		<Progress done="66" type="Javascript"/>
-		<Progress done="15" type="C#"/>
-		<Progress done="70" type="Java"/>
-		<Progress done="100" type="Php"/>
+		<Progress done="90" type="React.js"/>
+		<Progress done="90" type="Node.js"/>
+		<Progress done="85" type="Sql and NoSql"/>
+		<Progress done="75" type="Computer Science degree"/>
+    <Progress done="70" type="C#"/>
+		<Progress done="50" type="Java"/>
+		<Progress done="40" type="Linux"/>
+		<Progress done="35" type="Go"/>
+    <Progress done="30" type="Php"/>
     </div>
     </div>
   );

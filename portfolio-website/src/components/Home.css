@@ -1,5 +1,6 @@
 .homeStyle {
-    background-image: linear-gradient(45deg, #3023AE 0%, #f09 100%);
+  background: rgb(72,69,108);
+background: linear-gradient(90deg, rgba(72,69,108,1) 0%, rgba(161,1,146,0.989233193277311) 49%, rgba(101,139,147,1) 100%);
     height: 100vh;
     display: flex;
     align-items: center;
