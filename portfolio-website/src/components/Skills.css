@@ -1,7 +1,14 @@
-.skillsStyle {
-    background-color: #bdf476;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.skillsStyle{
+  background-color: #bdf476;
+  height: 100vh;
+}
+
+.skillsHeader{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+
+}
+
+

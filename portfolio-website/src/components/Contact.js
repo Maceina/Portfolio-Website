@@ -1,13 +1,12 @@
-import React from 'react';
 import './Contact.css';
+import React from 'react';
 
+const Contact = () => {
 
-const Contact =  () => {
-    return (
-        <div className ="contactStyle">
-        <div>Contact</div>
-        </div>
-    )
+  return (
+      <div className="contactStyle">
+    <div>contact</div>
+    </div>
+  );
 }
-
 export default Contact;
