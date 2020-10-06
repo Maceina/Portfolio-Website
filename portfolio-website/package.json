@@ -10,6 +10,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
+    "react-sweet-progress": "^1.1.2",
     "react-typing-effect": "^2.0.4",
     "react-use-typewriter": "^1.0.0-alpha.5"
   },
