@@ -4,7 +4,7 @@ import useTypewriter from "react-use-typewriter";
 
 const Hello = () => {
 
-    const words = ["Hello, my name is Audrius", "I'am a software engineer."];
+    const words = ["Hello, my name is Audrius", "I'm a software engineer."];
   const currentWord = useTypewriter({words}, false);
 
     return (
