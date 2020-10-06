@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "-": "0.0.1",
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -19,6 +20,7 @@
     "react-typing-effect": "^2.0.4",
     "react-use-typewriter": "^1.0.0-alpha.5",
     "reactstrap": "^8.6.0",
+    "save": "^2.4.0",
     "semantic-ui-react": "^2.0.0"
   },
   "scripts": {

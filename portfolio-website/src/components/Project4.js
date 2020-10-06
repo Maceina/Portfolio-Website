@@ -7,7 +7,6 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
 import project4 from '../images/project4.png';
 
 const useStyles = makeStyles({
@@ -19,7 +18,6 @@ const useStyles = makeStyles({
 export default function Project4() {
   const classes = useStyles();
 
-  const preventDefault = (event) => event.preventDefault();
 
   return (
     <Card className={classes.root}>
