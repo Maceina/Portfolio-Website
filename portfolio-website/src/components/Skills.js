@@ -1,18 +1,18 @@
 import React from "react";
-import { Progress } from "semantic-ui-react";
+import Progress from './Progress';
 
-import "./Skills.css";
+import "./Skills.scss";
 
 const Skills = () => {
   return (
     <div className="skillsStyle">
-      <div className="skillsHeader">My skills</div>
-      <div className="skillsList">
-          <div className="item1"></div>
-          <div className="item2"></div>
-          <div className="item3"></div>
-          <div className="item4"></div>
-      </div>
+      <h1>My Skills</h1>
+      <div className="progressStyle1">
+		<Progress done="66" type="Javascript"/>
+		<Progress done="15" type="C#"/>
+		<Progress done="70" type="Java"/>
+		<Progress done="100" type="Php"/>
+    </div>
     </div>
   );
 };

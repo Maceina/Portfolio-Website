@@ -1,0 +1,44 @@
+.skillsStyle{
+  background: rgb(72,69,108);
+  background: linear-gradient(90deg, rgba(72,69,108,1) 0%, rgba(184,117,178,0.989233193277311) 49%, rgba(101,139,147,1) 100%);
+  height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+h1{
+  padding-left: 43%;
+  padding-top: 100px;
+  color: white;
+}
+
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 30px;
+	position: relative;
+	margin: 30px 0;
+	height: 200%;
+  width: 75%;
+  
+}
+
+.progress-done {
+  background: linear-gradient(45deg, #3023AE 0%, #f09 100%);
+  box-shadow: 0 3px 3px -5px #F2909C, 0 2px 5px #F2909C;
+  border-radius: 0px;
+	color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; /* dynamic - controlled by js */
+  height:100%;
+  width: 500px; /* dynamic - controlled by js */
+  transition: 2s ease; 
+	/* animation: takes (1 second), type=ease, delay=0.3s */
+  
+}
+
+.progressStyle1{
+  padding-left:20%;
+  padding-top:25px;
+}
