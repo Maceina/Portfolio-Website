@@ -15,8 +15,8 @@ const Progress = ({done, type}) => {
 	}, 1000);
 	
 	return (
-		<div class="progress">
-  		<div class="progress-done" style={style}>
+		<div className="progress">
+  		<div className="progress-done" style={style}>
 				{type}
   		</div>
 		</div>

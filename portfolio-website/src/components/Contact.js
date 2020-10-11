@@ -10,7 +10,7 @@ const Contact = () => {
     e.preventDefault(); // Prevents default refresh by the browser
     emailjs
       .sendForm(
-        "service_jzno1gd",
+        "service_qv9jufp",
         apiKeys.TEMPLATE_ID,
         e.target,
         apiKeys.USER_ID
@@ -58,11 +58,15 @@ const Contact = () => {
       </form>
       <div className="links">
         <div>
-        <a target="_blank" href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies">
+        <a target="_blank" href="https://www.linkedin.com/in/audrius-maceina-01713a183/">
           <img className="linked" src={linkeinlogo} alt="LinkeIn"/>
           </a>
         </div>
+        <div>
+        <a target="_blank" href="https://github.com/Maceina">
         <img className="git" src={gitlogo} alt="Github"/>
+        </a>
+        </div>
       </div>
       </div>
       </div>
