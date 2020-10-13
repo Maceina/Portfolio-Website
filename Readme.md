@@ -1,4 +1,4 @@
-# Portfolio website
-# !!!! Sass disapeared in My skills section!!!!
+# Personal Portfolio Website
 
-# Live example: https://maceina.github.io/Portfolio-website/
+# Live:
+# https://maceina.github.io/Portfolio-website/
