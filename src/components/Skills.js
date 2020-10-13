@@ -2,6 +2,7 @@ import React from "react";
 import Progress from './Progress';
 
 import "./Skills.scss";
+import "./Skills.css";
 
 const Skills = () => {
   return (
@@ -18,6 +19,7 @@ const Skills = () => {
 		<Progress done="35" type="Go"/>
     <Progress done="30" type="Php"/>
     </div>
+    <div className="labas">labas</div>
     </div>
   );
 };
