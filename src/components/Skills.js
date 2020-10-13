@@ -1,25 +1,17 @@
 import React from "react";
-import Progress from './Progress';
+import ProgressBar from 'react-bootstrap/ProgressBar'
 
-import "./Skills.scss";
 import "./Skills.css";
 
 const Skills = () => {
   return (
     <div className="skillsStyle">
       <h1 className="mySkills">My Skills</h1>
-      <div className="progressStyle1">
-		<Progress done="90" type="React.js"/>
-		<Progress done="90" type="Node.js"/>
-		<Progress done="85" type="Sql and NoSql databases"/>
-		<Progress done="75" type="Computer Science degree"/>
-    <Progress done="70" type="C#"/>
-		<Progress done="50" type="Java"/>
-		<Progress done="40" type="Linux"/>
-		<Progress done="35" type="Go"/>
-    <Progress done="30" type="Php"/>
-    </div>
-    <div className="labas">labas</div>
+      <div className="progress">
+      <div style={{ width: 1000 }}>
+				<ProgressBar animated now={90} variant={"green"} label={"Node.js"} />
+			</div>
+      </div>
     </div>
   );
 };
