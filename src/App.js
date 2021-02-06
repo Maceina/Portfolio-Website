@@ -10,7 +10,7 @@ import Resume from './components/Resume/Resume';
 import AOS from 'aos';
 
 import './App.css';
-//
+
 function App() {
   const [menuActive, setMenuState] = useState(false);
 
