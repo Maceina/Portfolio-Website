@@ -1,0 +1,104 @@
+{
+    "programmingLanguages": [
+        {
+            "lang": "React.js",
+            "proficieny": "95"
+        },
+
+        {
+            "lang": "Javascript",
+            "proficieny":"95"
+        },
+
+        {
+            "lang": "Express.js",
+            "proficieny":"90"
+        },
+
+        {
+            "lang": "Node.js",
+            "proficieny":"90"
+        },
+
+        {
+            "lang": "C#",
+            "proficieny":"80"
+        },
+
+        {
+            "lang": "NOSQL",
+            "proficieny":"85"
+        },
+
+        {
+            "lang": "SQL",
+            "proficieny":"85"
+        },
+
+        {
+            "lang": "Python",
+            "proficieny":"65"
+        },
+
+        {
+            "lang": "Java",
+            "proficieny":"60"
+        },
+
+        {
+            "lang": "TypeScript",
+            "proficieny":"70"
+        }
+    ],
+
+    "softwareTools":[
+        {
+            "name": "Git",
+            "proficieny":"80"
+        },
+
+        {
+            "name": "Agile",
+            "proficieny":"70"
+        },
+
+        {
+            "name": "Jest",
+            "proficieny":"65"
+        },
+
+        {
+            "name": "Bash",
+            "proficieny": "75"
+        },
+
+        {
+            "name": "Windows",
+            "proficieny":"95"
+        },
+        {
+            "name": "macOS",
+            "proficieny":"90"
+        },
+
+        {
+            "name": "Linux",
+            "proficieny":"85"
+        },
+
+        {
+            "name": "Microsoft Word",
+            "proficieny":"95"
+        },
+
+        {
+            "name": "Microsoft Excel",
+            "proficieny":"90"
+        },
+
+        {
+            "name": "Microsoft Powerpoint",
+            "proficieny":"80"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "items": [
+        {
+            "name": "IT Ticketing System", 
+            "description": "Report and fix a Hardware/Software issue in the office. \n [React, Node.js, Express.js, MongoDB, MaterialUI]",
+            "image": "assets/img/projects/ticketing.png",
+            "github": "https://github.com/Maceina/IT-Ticketing-System"
+        },
+        
+        {
+            "name": "EasySell", 
+            "description": "This is EasySell, it's a free, web-based point-of-sale system. \n [React, Node.js, Express.js, MongoDB, Bootstrap]",
+            "image": "assets/img/projects/easysell.png",
+            "github": "https://github.com/Maceina/EasySell"
+        },
+
+        {
+            "name": "Trello", 
+            "description": "This is a clone of popular project management application Trello. \n [MERN Stack (MongoDB, Express, React, Node.js)]",
+            "image": "assets/img/projects/trello.png",
+            "github": "https://github.com/Maceina/Trello"
+        },
+        {
+            "name": "Pomotimer", 
+            "description": "Track your work using a fully customisable pomodoro-based timer system.  \n [MERN Stack (MongoDB, Express, React, Node.js)]",
+            "image": "assets/img/projects/pomotimer.png",
+            "github": "https://github.com/Maceina/Pomotimer"
+        },
+        {
+            "name": "Github-Jobs", 
+            "description": "Display jobs from gtihub jobs api  \n [React.js, Normalize.css, API ]",
+            "image": "assets/img/projects/githubjobs.png",
+            "github": "https://github.com/Maceina/Github-Jobs"
+        },
+        {
+            "name": "Landing Page", 
+            "description": "Responsive landing page. \n [React.js, smooth-scroll, email-js]",
+            "image": "assets/img/projects/landingpage.png",
+            "github": "https://github.com/Maceina/Landing-Page"
+        },
+        {
+            "name": "Restaurant Review", 
+            "description": "Rate or leave a review about restaurant. \n [React.js, Express.js, Postgress DB, Bootstrap] ",
+            "image": "assets/img/projects/restaurantreview.png",
+            "github": "https://github.com/Maceina/Restaurant-Review"
+        },
+        {
+            "name": "Amazon Clone", 
+            "description": "Simplistic amazon clone. \n [React.js, Express.js, MongoDB, Paypal API] ",
+            "image": "assets/img/projects/amazon.png",
+            "github": "https://github.com/Maceina/Amazon-clone"
+        },
+        {
+            "name": "Social media app", 
+            "description": "Simplistic social media app. \n [React.js, Express.js, MongoDB, Apollo, GraphQL] ",
+            "image": "assets/img/projects/social.png",
+            "github": "https://github.com/Maceina/Social-Media-App"
+        },
+        {
+            "name": "Tinder", 
+            "description": "Tinder like, card swaping app. \n [React.js, MongoDB, Express.js, Material UI] ",
+            "image": "assets/img/projects/tinder.png",
+            "github": "https://github.com/Maceina/Tinder"
+        },
+        {
+            "name": "Portfolio website", 
+            "description": "My own portfolio website. \n [React.js, Bootstrap] ",
+            "image": "assets/img/projects/portfolio.png",
+            "github": "https://github.com/Maceina/Portfolio-website"
+        },
+        {
+            "name": "Streaming App", 
+            "description": "Simple video streaming app.  \n [Node.js, Express.js, Socket.io, Peer.js] ",
+            "image": "assets/img/projects/streaming.png",
+            "github": "https://github.com/Maceina/Streaming-app"
+        },
+        {
+            "name": "Discord", 
+            "description": "Simple discord chat clone.  \n [React.js, Firebase] ",
+            "image": "assets/img/projects/discord.png",
+            "github": "https://github.com/Maceina/Discord"
+        }
+        
+    ]
+}

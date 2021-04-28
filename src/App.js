@@ -1,123 +1,53 @@
-import React, { useRef, useEffect, useState } from "react";
-import "./App.css";
-import Contact from './components/Contact';
-import Home from './components/Home';
-import Portfolio from './components/Portfolio';
-import Skills from './components/Skills';
+import React, { useState } from "react";
+import About from './components/About';
+import BackToTop from './components/BackToTop'
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Projects from './components/Projects/Projects';
+import Resume from './components/Resume/Resume';
+import AOS from 'aos';
 
-
-const getDimensions = ele => {
-  const { height } = ele.getBoundingClientRect();
-  const offsetTop = ele.offsetTop;
-  const offsetBottom = offsetTop + height;
-
-  return {
-    height,
-    offsetTop,
-    offsetBottom,
-  };
-};
-
-const scrollTo = ele => {
-  ele.scrollIntoView({
-    behavior: "smooth",
-    block: "start",
-  });
-};
+import './App.css';
 
 function App() {
-  const [visibleSection, setVisibleSection] = useState();
+  const [menuActive, setMenuState] = useState(false);
 
-  const headerRef = useRef(null);
-  const homeRef = useRef(null);
-  const skillsRef = useRef(null);
-  const portfolioRef = useRef(null);
-  const contactRef = useRef(null);
+  const toggle = () => {
+    setMenuState(!menuActive);
+  };
 
-  const sectionRefs = [
-    { section: "Home", ref: homeRef },
-    { section: "Skills", ref: skillsRef },
-    { section: "Portfolio", ref: portfolioRef },
-    { section: "Contact", ref: contactRef },
-  ];
+  const checkToggle = () => {
+    if(menuActive === true){
+      toggle();
+    }
+    return null;
+  }
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const { height: headerHeight } = getDimensions(headerRef.current);
-      const scrollPosition = window.scrollY + headerHeight;
+  AOS.init({
+    duration: 1000,
+    easing: "ease-in-out-back",
+    once: true
+  });
 
-      const selected = sectionRefs.find(({ section, ref }) => {
-        const ele = ref.current;
-        if (ele) {
-          const { offsetBottom, offsetTop } = getDimensions(ele);
-          return scrollPosition > offsetTop && scrollPosition < offsetBottom;
-        }
-      });
-
-      if (selected && selected.section !== visibleSection) {
-        setVisibleSection(selected.section);
-      } else if (!selected && visibleSection) {
-        setVisibleSection(undefined);
-      }
-    };
-
-    handleScroll();
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [visibleSection]);
   return (
-    <div className="App">
-      {/*<div className="top-spacer" />*/}
-      <div className="content">
-        <div className="sticky">
-          <div className="header" ref={headerRef}>
-            <button
-              type="button"
-              className={`header_link ${visibleSection === "Home" ? "selected" : ""}`}
-              onClick={() => {
-                scrollTo(homeRef.current);
-              }}
-            >
-              Home
-            </button>
-            <button
-              type="button"
-              className={`header_link ${visibleSection === "Skills" ? "selected" : ""}`}
-              onClick={() => {
-                scrollTo(skillsRef.current);
-              }}
-            >
-              Skills
-            </button>
-            <button
-              type="button"
-              className={`header_link ${visibleSection === "Portfolio" ? "selected" : ""}`}
-              onClick={() => {
-                scrollTo(portfolioRef.current);
-              }}
-            >
-              Portfolio
-            </button>
-            <button
-              type="button"
-              className={`header_link ${visibleSection === "Contact" ? "selected" : ""}`}
-              onClick={() => {
-                scrollTo(contactRef.current);
-              }}
-            >
-              Contact
-            </button>
-          </div>
+    <div>
+      <button type="button" onClick={toggle} className="mobile-nav-toggle d-xl-none">
+          <i className={`${menuActive ? "icofont-close" : "icofont-navigation-menu"}`}/>
+      </button>
+      <div onClick={checkToggle} className={`${menuActive ? "mobile-nav-active" : ""}`}>
+        <Header toggle={checkToggle}/>
+        <Hero/>
+        <div id="main">
+          <About/>
+          <Resume/>
+          <Projects/>
+          <Contact/>
         </div>
-        <div className="section" id="Home" ref={homeRef} ><Home/></div>
-        <div className="section" id="Skills" ref={skillsRef} ><Skills/></div>
-        <div className="section" id="Portfolio" ref={portfolioRef}><Portfolio/></div>
-        <div className="section" id="Contact" ref={contactRef} ><Contact/></div>
+        <Footer/>
+        <BackToTop/>
       </div>
-
-      {/*<div className="bottom-spacer" />*/}
     </div>
   );
 }

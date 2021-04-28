@@ -1,0 +1,27 @@
+{
+    "education": [
+        {
+            "institution": "Kaunas University of Technology",
+            "degree": "Bachelor of Comouter Science", 
+            "duration": "September 2017 - April 2021"
+        },
+        {
+            "institution": "Kaunas University of Technology",
+            "degree": "Bachelor of Chemistry Engineering", 
+            "duration": "September 2015 - January 2016" 
+        }
+    ],
+    
+    "workExperience": [
+        {
+            "position": "Compulsory military service", 
+            "duration": "April 2016 - January 2017",
+            "company": "Lithunian military",
+            "description": [
+                "Trained to lead and command a unit of 10 soldiers.",
+                "Strengthen skills of four types of weapons."
+            ]
+        }
+        
+    ]
+}
