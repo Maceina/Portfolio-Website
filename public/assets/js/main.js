@@ -6,7 +6,7 @@
 */
 !(function($) {
   "use strict";
-
+//1
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
