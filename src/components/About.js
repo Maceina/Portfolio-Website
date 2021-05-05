@@ -22,7 +22,7 @@ function About(){
                         </p>
                         <p>Before my studies, I joined <b>Lithunian military</b> to do my compulsory military service for 9 months. There I gained very valuable <b>leadership and teamwork experience.</b> </p>
                         <p> 
-                            Though my studies, I developed a passion in <b>Software Engineering/Development, and Information Technology</b>. As such, I am always on the lookout for exciting career opportunities in these particular fields of interest.
+                            Through my studies, I developed a passion for <b>Software Engineering/Development, and Information Technology</b>. As such, I am always on the lookout for exciting career opportunities in these particular fields of interest.
                         </p>
                         <p>
                             I also have a huge passion for <b>Web Development </b> (hence my degree), especially <b>web applicatons</b>.
