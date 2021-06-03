@@ -30,6 +30,7 @@ function Projects(){
                                             <NewLineTextDescription text={Project.description}/>
                                         </div>
                                         <div className="portfolio-links">
+                                            {Project.live ? <a href={Project.live} target="_blank" rel="noopener noreferrer"><i className="icofont-eye"/></a> : null }
                                             <a href={Project.github} target="_blank" rel="noopener noreferrer"><i className="bx bxl-github"/></a>
                                         </div>
                                     </div>

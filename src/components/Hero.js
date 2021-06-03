@@ -11,7 +11,7 @@ function Hero(){
                     <div className="typewriter">
                         <Typewriter
                                 options={{
-                                    strings: ['Software Engineer', 'Outdoor Enthusiast'],
+                                    strings: ['Front-end Engineer', 'Outdoor Enthusiast'],
                                     autoStart: true,
                                     loop: true,
                                     delay: 150,

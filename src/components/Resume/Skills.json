@@ -12,17 +12,17 @@
 
         {
             "lang": "Express.js",
-            "proficieny":"90"
+            "proficieny":"80"
         },
 
         {
             "lang": "Node.js",
-            "proficieny":"90"
+            "proficieny":"80"
         },
 
         {
             "lang": "C#",
-            "proficieny":"80"
+            "proficieny":"60"
         },
 
         {
@@ -37,7 +37,7 @@
 
         {
             "lang": "Python",
-            "proficieny":"65"
+            "proficieny":"60"
         },
 
         {
@@ -47,7 +47,7 @@
 
         {
             "lang": "TypeScript",
-            "proficieny":"70"
+            "proficieny":"60"
         }
     ],
 

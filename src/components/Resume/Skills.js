@@ -8,7 +8,7 @@ function Skills(){
 
                 <div className="section-title">
                 <h3><b>Skills</b></h3>
-                <p>My strongholds are in Web Development especially in Javascript.</p>
+                <p>My strongholds are in Web Development especially in Front-end using Javascript.</p>
                 </div>
 
                 <div className="row skills-content">

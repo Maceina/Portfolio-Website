@@ -36,7 +36,7 @@ function Resume(){
 
                     </div>
                     <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <h3 className="resume-title">Volunteering &amp; Leadership Positions</h3>
+                        <h3 className="resume-title">Work Experience</h3>
                         {
                             ResumeData.workExperience.map((WorkExperience) =>{
                                 return(

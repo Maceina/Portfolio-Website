@@ -2,24 +2,27 @@
     "education": [
         {
             "institution": "Kaunas University of Technology",
-            "degree": "Bachelor of Computer Science", 
-            "duration": "September 2017 - April 2021"
-        },
-        {
-            "institution": "Kaunas University of Technology",
             "degree": "Bachelor of Chemistry Engineering", 
-            "duration": "September 2015 - January 2016" 
+            "duration": "September 2015 - February 2017" 
         }
     ],
     
     "workExperience": [
         {
             "position": "Compulsory military service", 
-            "duration": "April 2016 - January 2017",
+            "duration": "April 2017 - January 2018",
             "company": "Lithunian military",
             "description": [
                 "Trained to lead and command a unit of 10 soldiers.",
                 "Strengthen skills of four types of weapons."
+            ]
+        },
+        {
+            "position": "Auto Mechanic", 
+            "duration": "March 2018 - Present",
+            "company": "Auto Aves, UAB",
+            "description": [
+                "Performed maintenance, diagnostic testing, repairs, and inspections of small trucks and cars."
             ]
         }
         
