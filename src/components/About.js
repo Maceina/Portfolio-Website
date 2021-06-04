@@ -1,6 +1,6 @@
 import React from 'react';
 // import Icofont from 'react-icofont';
-
+// .
 function About(){
     return(
         <section id="about" className="about">
