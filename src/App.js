@@ -8,7 +8,7 @@ import Hero from './components/Hero';
 import Projects from './components/Projects/Projects';
 import Resume from './components/Resume/Resume';
 import AOS from 'aos';
-//123
+//1234
 import './App.css';
 
 function App() {
